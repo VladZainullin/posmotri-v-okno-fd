@@ -59,18 +59,31 @@ ol {
 }
 
 .content {
+  width: 799px;
   display: grid;
   align-items: end;
   gap: 30px;
-  grid-template-columns: 711px 399px;
+  grid-template-areas: "result content__details";
+}
+
+.content__details {
+  width: 399px;
+  grid-area: content__details;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.content__list-container {
+  overflow: auto;
+  height: 298px;
+}
+
+.result {
+  grid-area: result;
 }
 
 .search-form {
   display: flex;
   justify-content: space-between;
-}
-
-.content__list-container {
-  overflow-y: scroll;
-  height: 298px;
 }
