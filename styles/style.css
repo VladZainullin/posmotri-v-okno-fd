@@ -127,3 +127,16 @@ ol {
 body {
   display: flex;
 }
+
+.content {
+  display: grid;
+  grid-template-areas: 'result content__details';
+}
+
+.result {
+  grid-area: result;
+}
+
+.content__details {
+  grid-area: content__details;
+}
