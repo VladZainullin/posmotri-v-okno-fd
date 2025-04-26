@@ -54,12 +54,10 @@ ol {
 
 .page {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .content {
-  width: 799px;
   display: grid;
   align-items: end;
   gap: 30px;
@@ -113,5 +111,4 @@ ol {
   object-position: left top;
 }
 
-.content__video-card-description-container {
-}
+
