@@ -111,6 +111,11 @@ ol {
   color: grey;
 }
 
+.content__card-link {
+  text-decoration: none;
+  color: white;
+}
+
 .result {
   grid-area: result;
 }
