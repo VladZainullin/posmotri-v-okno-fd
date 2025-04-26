@@ -159,6 +159,13 @@ ol {
   align-items: start;
 }
 
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 103px;
+  object-fit: cover;
+  object-position: center;
+}
+
 .title {
   margin-bottom: 26px;
 }
