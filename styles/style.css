@@ -55,11 +55,13 @@ ol {
 .page {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .content {
   display: grid;
   align-items: end;
+  width: 1140px;
   gap: 30px;
   grid-template-areas: "result content__details";
 }
