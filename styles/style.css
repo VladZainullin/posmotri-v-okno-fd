@@ -66,6 +66,15 @@ fieldset {
   white-space: nowrap;
 }
 
+.button {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  line-height: 100%;
+}
+
 .page {
   display: flex;
 }
@@ -177,4 +186,20 @@ fieldset {
 .search-form__checkbox-list {
   display: flex;
   column-gap: 15px;
+}
+
+.search-form__fieldset {
+  width: 225px;
+}
+
+.search-form__label {
+  display: block;
+}
+
+.search-form__textfield {
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
