@@ -131,6 +131,7 @@ body {
 .content {
   margin: auto;
   display: grid;
+  align-items: end;
   grid-template-areas: 'result content__details';
 }
 
