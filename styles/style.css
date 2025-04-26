@@ -86,7 +86,10 @@ ol {
 .content__video-card {
   display: flex;
   align-items: start;
-  justify-content: space-between;
+}
+
+.content__video-card-description-container {
+  flex-grow: 1;
 }
 
 .content__video-card-thumbnail {
