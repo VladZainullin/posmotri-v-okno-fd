@@ -180,7 +180,7 @@ fieldset {
 .search-form {
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: end;
 }
 
 .search-form__fieldset-title {
