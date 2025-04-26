@@ -117,7 +117,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
@@ -125,6 +125,11 @@ ol {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.content__video-card-description {
+  line-height: 16.2px;
+  line-clamp: 6;
 }
 
 .result {
