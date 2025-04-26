@@ -123,3 +123,10 @@ ol {
   justify-content: space-between;
   align-items: start;
 }
+
+.search-form__fieldset-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
