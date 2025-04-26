@@ -141,6 +141,11 @@ body {
   grid-area: content__details;
 }
 
+.content__list-container {
+  height: 298px;
+  overflow: auto;
+}
+
 .result {
   grid-area: result;
 }
