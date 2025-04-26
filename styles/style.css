@@ -129,16 +129,18 @@ body {
 }
 
 .content {
+  width: 1140px;
   margin: auto;
   display: grid;
   align-items: end;
+  column-gap: 30px;
   grid-template-areas: 'result content__details';
-}
-
-.result {
-  grid-area: result;
 }
 
 .content__details {
   grid-area: content__details;
+}
+
+.result {
+  grid-area: result;
 }
