@@ -129,6 +129,7 @@ body {
 }
 
 .content {
+  margin: auto;
   display: grid;
   grid-template-areas: 'result content__details';
 }
