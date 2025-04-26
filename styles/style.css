@@ -166,6 +166,10 @@ ol {
   object-position: center;
 }
 
+.content__video-card-description-container {
+  flex-grow: 1;
+}
+
 .title {
   margin-bottom: 26px;
 }
