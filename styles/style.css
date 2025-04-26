@@ -154,6 +154,11 @@ ol {
   row-gap: 30px;
 }
 
+.content__video-card {
+  display: flex;
+  align-items: start;
+}
+
 .title {
   margin-bottom: 26px;
 }
