@@ -144,3 +144,9 @@ body {
 .result {
   grid-area: result;
 }
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
