@@ -77,6 +77,25 @@ ol {
   height: 298px;
 }
 
+.content__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.content__video-card {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 103px;
+  object-fit: cover;
+  object-position: left top;
+}
+
 .result {
   grid-area: result;
 }
@@ -97,18 +116,3 @@ ol {
   display: flex;
   justify-content: space-between;
 }
-
-.content__video-card {
-  display: flex;
-  align-items: start;
-  justify-content: space-between;
-}
-
-.content__video-card-thumbnail {
-  width: 194px;
-  height: 103px;
-  object-fit: cover;
-  object-position: left top;
-}
-
-
