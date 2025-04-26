@@ -148,6 +148,12 @@ ol {
   overflow: auto;
 }
 
+.content__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
 .title {
   margin-bottom: 26px;
 }
