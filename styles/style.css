@@ -187,6 +187,7 @@ fieldset {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
+  letter-spacing: 0;
 }
 
 .search-form__checkbox-list {
@@ -194,15 +195,17 @@ fieldset {
   column-gap: 15px;
 }
 
-.search-form__fieldset {
-  width: 225px;
-}
-
 .search-form__label {
-  display: block;
+  display: inline-block;
 }
 
 .search-form__textfield {
+  font-family: "Fira Sans Condensed", sans-serif;
+  width: 225px;
+  padding: 2px 0px;
+  margin-top: 5px;
+  font-size: 18px;
+  color: white;
   appearance: none;
   border: none;
   background-color: transparent;
