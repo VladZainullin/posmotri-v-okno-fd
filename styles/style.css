@@ -67,7 +67,8 @@ fieldset {
 }
 
 .button {
-
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
   border: 1px solid white;
   background-color: transparent;
   color: white;
