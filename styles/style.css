@@ -220,6 +220,7 @@ fieldset {
   border: none;
   background-color: transparent;
   border-top: 1px solid white;
+  word-spacing: -3px;
   border-bottom: 1px solid white;
 }
 
