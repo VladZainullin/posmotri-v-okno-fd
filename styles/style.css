@@ -97,6 +97,7 @@ fieldset {
 
 .content__list-container {
   height: 298px;
+  position: relative;
   overflow: auto;
 }
 
@@ -172,6 +173,7 @@ fieldset {
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
+  position: relative;
 }
 
 .result__video {
