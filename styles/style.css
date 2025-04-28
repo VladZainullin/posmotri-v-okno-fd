@@ -195,10 +195,6 @@ fieldset {
   column-gap: 15px;
 }
 
-.search-form__label {
-  display: inline-block;
-}
-
 .search-form__textfield {
   font-family: "Fira Sans Condensed", sans-serif;
   width: 225px;
