@@ -226,6 +226,10 @@ fieldset {
   border-bottom: 1px solid white;
 }
 
+.search-form__textfield:focus {
+  outline: none;
+}
+
 .search-form__submit-button {
   width: 194px;
   height: 34px;
