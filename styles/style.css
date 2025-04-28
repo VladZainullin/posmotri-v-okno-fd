@@ -67,12 +67,12 @@ fieldset {
 }
 
 .button {
+
   border: 1px solid white;
   background-color: transparent;
   color: white;
   font-weight: 700;
   text-align: center;
-  line-height: 100%;
 }
 
 .page {
@@ -154,10 +154,11 @@ fieldset {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  margin-bottom: 6px;
 }
 
 .content__video-card-description {
-  line-height: 16.2px;
+  line-height: 12px;
   line-clamp: 6;
 }
 
@@ -180,14 +181,13 @@ fieldset {
 .search-form {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: start;
 }
 
 .search-form__fieldset-title {
   font-weight: 400;
   font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0;
+  margin-bottom: 5px;
 }
 
 .search-form__checkbox-list {
@@ -195,11 +195,22 @@ fieldset {
   column-gap: 15px;
 }
 
+.search-form__label {
+  display: flex;
+  align-items: center;
+}
+
+.search-form__pseudo-checkbox {
+  border: 1px solid white;
+  width: 19px;
+  height: 19px;
+  margin-right: 5px;
+}
+
 .search-form__textfield {
   font-family: "Fira Sans Condensed", sans-serif;
   width: 225px;
-  padding: 2px 0px;
-  margin-top: 5px;
+  padding: 2px 0;
   font-size: 18px;
   color: white;
   appearance: none;
@@ -212,4 +223,5 @@ fieldset {
 .search-form__submit-button {
   width: 194px;
   height: 34px;
+  align-self: end;
 }
