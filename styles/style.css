@@ -130,6 +130,7 @@ fieldset {
 }
 
 .title {
+  padding-top: 8px;
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
