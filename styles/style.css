@@ -219,6 +219,10 @@ fieldset {
   background-color: white;
 }
 
+.search-form__checkbox:checked + .search-form__pseudo-checkbox {
+  background-color: white;
+}
+
 .search-form__label:hover > .search-form__label-text {
   text-underline-offset: 5px;
   text-decoration: underline;
