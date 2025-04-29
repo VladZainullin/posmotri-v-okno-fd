@@ -214,7 +214,7 @@ fieldset {
   background-clip: content-box;
 }
 
-.search-form__label:active .search-form__pseudo-checkbox {
+.search-form__label:active > .search-form__pseudo-checkbox {
   background-color: white;
 }
 
