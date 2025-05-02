@@ -76,6 +76,11 @@ fieldset {
   text-align: center;
 }
 
+.button:focus-visible {
+  outline: 1px solid white;
+  outline-offset: 1px;
+}
+
 .page {
   display: flex;
 }
