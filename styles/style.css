@@ -185,7 +185,12 @@ fieldset {
 
 .content__card-link {
   text-decoration: none;
+  display: block;
   color: white;
+}
+
+.content__card-link:focus-visible {
+  outline: 1px solid white;
 }
 
 .content__video-card-title {
