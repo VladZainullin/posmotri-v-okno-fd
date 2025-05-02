@@ -111,6 +111,7 @@ fieldset {
 
 .content__list-container {
   height: 298px;
+  width: 399px;
   position: relative;
   overflow: auto;
 }
@@ -155,6 +156,20 @@ fieldset {
 
 .content__accent {
   color: grey;
+}
+
+.content__list-item:hover {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 2px;
+}
+
+.content__list-item:active {
+  background-color: #545050;
+}
+
+.content__list-item:focus-visible {
+  outline: 1px solid white;
 }
 
 .content__card-link {
