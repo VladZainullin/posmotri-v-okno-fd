@@ -130,6 +130,7 @@ fieldset {
 
 .content__list-item {
   max-width: 390px;
+  padding: 0 3px;
 }
 
 .content__video-card {
