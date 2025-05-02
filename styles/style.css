@@ -211,6 +211,11 @@ fieldset {
   align-items: center;
 }
 
+.search-form__label:focus-within {
+  outline: 1px solid white;
+  outline-offset: 1px;
+}
+
 .search-form__pseudo-checkbox {
   border: 1px double white;
   width: 19px;
