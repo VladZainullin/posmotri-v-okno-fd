@@ -95,7 +95,6 @@ fieldset {
 }
 
 .content {
-  width: 1140px;
   margin: auto;
   display: grid;
   align-items: end;
