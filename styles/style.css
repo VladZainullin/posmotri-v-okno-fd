@@ -290,8 +290,11 @@ fieldset {
 }
 
 .content__video-card-description {
-  line-height: 12px;
-  line-clamp: 6;
+  line-height: 16.2px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
 }
 
 .content__video-card-thumbnail {
