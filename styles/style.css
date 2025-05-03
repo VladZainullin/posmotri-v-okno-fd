@@ -247,7 +247,7 @@ fieldset {
   align-items: center;
 }
 
-.search-form__label:focus-within {
+.search-form__label:has(.search-form__checkbox:focus-visible) {
   outline: 1px solid white;
   outline-offset: 1px;
 }
