@@ -67,12 +67,12 @@ fieldset {
 }
 
 .button {
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 18px;
+  font-family: inherit;
+  font-size: inherit;
   border: 1px solid white;
   background-color: transparent;
   color: white;
-  font-weight: 700;
+  font-weight: inherit;
   text-align: center;
   cursor: pointer;
 }
