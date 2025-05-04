@@ -260,10 +260,11 @@ fieldset {
   align-items: start;
 }
 
-.content__video-card:hover {
+.content__video-card:hover > .content__video-card-description-container {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
 }
 
 .content__video-card:active {
@@ -281,6 +282,11 @@ fieldset {
 .content__video-card-description-container {
   flex-grow: 1;
   max-width: 196px;
+  height: 103px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  row-gap: 4px;
 }
 
 .content__video-card-title {
@@ -292,7 +298,6 @@ fieldset {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  margin-bottom: 4px;
 }
 
 .content__video-card-description {
@@ -301,6 +306,7 @@ fieldset {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
   overflow: hidden;
+  flex-grow: 1;
 }
 
 .content__video-card-thumbnail {
