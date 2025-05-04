@@ -74,11 +74,12 @@ fieldset {
 
 .button {
   font-family: inherit;
+  word-spacing: -1px;
   font-size: inherit;
+  font-weight: 700;
   border: 1px solid currentColor;
   background-color: transparent;
   color: currentColor;
-  font-weight: inherit;
   text-align: center;
   cursor: pointer;
 }
