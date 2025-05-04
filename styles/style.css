@@ -58,6 +58,10 @@ body {
   margin: 0;
 }
 
+input {
+  appearance: none;
+}
+
 fieldset {
   border: 0;
 }
@@ -148,7 +152,6 @@ fieldset {
   padding: 2px 0;
   font-size: inherit;
   color: currentColor;
-  appearance: none;
   border: none;
   background-color: transparent;
   border-top: 1px solid currentColor;
