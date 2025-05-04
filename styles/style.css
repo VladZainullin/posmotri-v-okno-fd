@@ -95,10 +95,6 @@ fieldset {
   background-color: #545050;
 }
 
-.page {
-  display: flex;
-}
-
 .content {
   margin: auto;
   display: grid;
